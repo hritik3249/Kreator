@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+
+/* For Editor.js */
+.ce-block__content,
+.ce-toolbar__content {
+  @apply max-w-6xl;
+}
+
+.codex-editor__redactor {
+  padding-bottom: 0 !important;
+}
+
+/* Hide Scrollbar */
+
+div * {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide Arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
